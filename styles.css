@@ -445,8 +445,9 @@ h3 {
 }
 
 .side-section {
-  border-top: 1px solid var(--line);
-  padding-top: 12px;
+  padding: 14px 14px 16px;
+  background: var(--soft);
+  border-radius: 4px;
 }
 
 .side-section h2 {
