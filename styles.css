@@ -105,6 +105,7 @@ a:hover {
 
 .intro {
   max-width: 760px;
+  margin-left: 192px;
   padding-bottom: 42px;
   border-bottom: 1px solid var(--line);
 }
@@ -516,6 +517,10 @@ h3 {
   .section {
     grid-template-columns: 1fr;
     gap: 24px;
+  }
+
+  .intro {
+    margin-left: 0;
   }
 
   .profile-card {
