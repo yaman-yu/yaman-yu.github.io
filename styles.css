@@ -25,7 +25,7 @@ body {
   color: var(--text);
   font-family: var(--font);
   font-size: 16px;
-  line-height: 1.65;
+  line-height: 1.58;
   text-rendering: optimizeLegibility;
 }
 
@@ -53,7 +53,7 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  padding: 28px 0 20px;
+  padding: 22px 0 16px;
   border-bottom: 1px solid var(--line);
 }
 
@@ -85,32 +85,32 @@ a:hover {
 .page-layout {
   display: grid;
   grid-template-columns: 260px minmax(0, 1fr);
-  gap: 64px;
+  gap: 48px;
   align-items: start;
-  padding-top: 56px;
+  padding-top: 38px;
 }
 
 .profile-column {
   position: sticky;
   top: 18px;
   display: grid;
-  gap: 28px;
+  gap: 20px;
   align-self: start;
 }
 
 .profile-card {
-  padding-bottom: 24px;
+  padding-bottom: 18px;
   border-bottom: 1px solid var(--line);
 }
 
 .intro {
   max-width: none;
-  padding-bottom: 42px;
+  padding-bottom: 30px;
   border-bottom: 1px solid var(--line);
 }
 
 .eyebrow {
-  margin: 0 0 14px;
+  margin: 0 0 10px;
   color: var(--purple);
   font-size: 0.86rem;
   font-weight: 600;
@@ -124,7 +124,7 @@ p {
 }
 
 h1 {
-  margin: 14px 0 8px;
+  margin: 12px 0 6px;
   color: var(--ink);
   font-size: 2rem;
   font-weight: 650;
@@ -152,10 +152,10 @@ h3 {
 }
 
 .lead {
-  margin-bottom: 22px;
+  margin-bottom: 16px;
   color: var(--ink);
   font-size: 1.22rem;
-  line-height: 1.55;
+  line-height: 1.48;
 }
 
 .intro p:last-child,
@@ -173,7 +173,7 @@ h3 {
 }
 
 .role {
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   color: var(--muted);
   font-size: 0.94rem;
   line-height: 1.45;
@@ -181,8 +181,8 @@ h3 {
 
 .link-list {
   display: grid;
-  gap: 7px;
-  margin: 20px 0 0;
+  gap: 5px;
+  margin: 14px 0 0;
   padding: 0;
   list-style: none;
   font-size: 0.94rem;
@@ -191,8 +191,8 @@ h3 {
 .section {
   display: grid;
   grid-template-columns: 150px minmax(0, 1fr);
-  gap: 42px;
-  padding: 42px 0;
+  gap: 32px;
+  padding: 30px 0;
   border-bottom: 1px solid var(--line);
 }
 
@@ -206,12 +206,12 @@ h3 {
 
 .topic-list {
   display: grid;
-  gap: 18px;
-  margin-top: 28px;
+  gap: 12px;
+  margin-top: 20px;
 }
 
 .topic-list article {
-  padding-top: 16px;
+  padding-top: 10px;
 }
 
 .topic-list p,
@@ -247,7 +247,7 @@ h3 {
 
 .tab-index {
   display: grid;
-  gap: 8px;
+  gap: 4px;
   position: sticky;
   top: 18px;
   align-self: start;
@@ -255,7 +255,7 @@ h3 {
 
 .tab-index label {
   display: block;
-  padding: 9px 10px;
+  padding: 7px 9px;
   border-left: 3px solid transparent;
   color: var(--muted);
   cursor: pointer;
@@ -289,7 +289,7 @@ h3 {
 }
 
 .section-note {
-  margin-bottom: 16px;
+  margin-bottom: 10px;
   color: var(--muted);
   font-size: 0.92rem;
 }
@@ -315,8 +315,8 @@ h3 {
 .paper {
   display: grid;
   grid-template-columns: 170px minmax(0, 1fr) 52px;
-  gap: 20px;
-  padding: 18px 0;
+  gap: 16px;
+  padding: 12px 0;
 }
 
 .paper:last-child {
@@ -333,11 +333,11 @@ h3 {
 }
 
 .paper h3 {
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .paper p {
-  margin-bottom: 3px;
+  margin-bottom: 2px;
   font-size: 0.92rem;
 }
 
@@ -353,8 +353,8 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  gap: 10px;
-  margin-top: 7px;
+  gap: 8px;
+  margin-top: 5px;
   font-size: 0.86rem;
   font-weight: 600;
 }
@@ -394,8 +394,8 @@ h3 {
 .award {
   display: grid;
   grid-template-columns: 64px minmax(0, 1fr);
-  gap: 20px;
-  padding: 18px 0;
+  gap: 16px;
+  padding: 12px 0;
 }
 
 .award:last-child {
@@ -425,11 +425,11 @@ h3 {
 
 .side-section {
   border-top: 1px solid var(--line);
-  padding-top: 16px;
+  padding-top: 12px;
 }
 
 .side-section h2 {
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 
 .side-list {
@@ -444,8 +444,8 @@ h3 {
 }
 
 .side-list li {
-  padding: 0 0 9px;
-  margin-bottom: 9px;
+  padding: 0 0 7px;
+  margin-bottom: 7px;
 }
 
 .side-list li:last-child {
@@ -481,7 +481,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  padding: 26px 0 44px;
+  padding: 20px 0 34px;
   color: var(--muted);
   font-size: 0.9rem;
 }
@@ -493,8 +493,8 @@ h3 {
 @media (max-width: 900px) {
   .page-layout {
     grid-template-columns: 1fr;
-    gap: 36px;
-    padding-top: 42px;
+    gap: 28px;
+    padding-top: 30px;
   }
 
   .profile-column {
@@ -515,13 +515,13 @@ h3 {
 
   .section {
     grid-template-columns: 1fr;
-    gap: 24px;
+    gap: 14px;
   }
 
   .profile-card {
     display: grid;
     grid-template-columns: 128px minmax(0, 1fr);
-    gap: 18px;
+    gap: 16px;
     align-items: start;
   }
 
