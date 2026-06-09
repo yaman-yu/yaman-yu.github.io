@@ -59,8 +59,8 @@ a:hover {
 
 .site-title {
   color: var(--ink);
-  font-size: 1.1rem;
-  font-weight: 700;
+  font-size: 0.98rem;
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -499,9 +499,7 @@ h3 {
 }
 
 .site-footer {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
+  text-align: center;
   padding: 20px 0 34px;
   color: var(--muted);
   font-size: 0.9rem;
