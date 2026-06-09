@@ -165,8 +165,8 @@ h3 {
 
 .portrait {
   display: block;
-  width: 210px;
-  height: 210px;
+  width: 248px;
+  height: 248px;
   object-fit: cover;
   object-position: center 36%;
   border-radius: 4px;
@@ -520,14 +520,14 @@ h3 {
 
   .profile-card {
     display: grid;
-    grid-template-columns: 104px minmax(0, 1fr);
+    grid-template-columns: 128px minmax(0, 1fr);
     gap: 18px;
     align-items: start;
   }
 
   .portrait {
-    width: 104px;
-    height: 104px;
+    width: 128px;
+    height: 128px;
   }
 
   .link-list {
