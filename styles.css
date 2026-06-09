@@ -456,7 +456,7 @@ h3 {
 .side-list {
   display: grid;
   gap: 0;
-  max-height: 220px;
+  max-height: 360px;
   margin: 0;
   padding: 0;
   padding-right: 8px;
@@ -487,6 +487,10 @@ h3 {
   margin: 0;
   font-size: 0.84rem;
   line-height: 1.38;
+}
+
+.side-list a {
+  font-weight: 500;
 }
 
 .side-list::-webkit-scrollbar {
