@@ -231,10 +231,15 @@ h3 {
   padding: 22px 24px;
 }
 
+.callout-section p {
+  margin-bottom: 12px;
+}
+
 .callout {
   color: var(--purple-dark);
   font-size: 1.08rem;
   font-weight: 650;
+  line-height: 1.4;
 }
 
 .student-highlight,
