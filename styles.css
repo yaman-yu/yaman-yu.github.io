@@ -193,6 +193,10 @@ h3 {
   border-bottom: 1px solid var(--line);
 }
 
+#research {
+  border-bottom: 0;
+}
+
 .section-content {
   max-width: none;
 }
@@ -231,6 +235,21 @@ h3 {
   color: var(--purple-dark);
   font-size: 1.08rem;
   font-weight: 650;
+}
+
+.student-highlight,
+.student-note {
+  padding-left: 14px;
+  border-left: 3px solid rgba(75, 46, 131, 0.22);
+}
+
+.student-highlight {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.student-note {
+  color: #51495f;
 }
 
 .holder {
