@@ -340,5 +340,20 @@
     <footer class="site-footer">
       <p>&copy; 2026 Yaman Yu. Welcome to a space for safer, more human-centered technology.</p>
     </footer>
+    <script>
+      function selectWorkTab(hash) {
+        const publications = document.getElementById("tab-publications");
+        const honors = document.getElementById("tab-awards");
+        if (hash === "#honors" && honors) honors.checked = true;
+        if (hash === "#publications" && publications) publications.checked = true;
+      }
+
+      document.querySelectorAll('a[href="#honors"], a[href="#publications"]').forEach((link) => {
+        link.addEventListener("click", () => selectWorkTab(link.getAttribute("href")));
+      });
+
+      window.addEventListener("hashchange", () => selectWorkTab(window.location.hash));
+      selectWorkTab(window.location.hash);
+    </script>
   </body>
 </html>
